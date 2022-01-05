@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "abir"
-version = "0.1.3"
-description = "python project load config from yaml or environment."
+version = "0.1.4"
+description = "python project load config from yaml and environment."
 license = "MIT"
 authors = ["Jone <zjhjin@live.com>"]
 keywords = ["pyyaml", "django", "django config yaml", "python configure"]
 readme = "README.md"
-homepage = "https://github.com/MattiooFR/package_name"
-repository = "https://github.com/MattiooFR/package_name"
+homepage = "https://github.com/jioone/abir"
+repository = "https://github.com/jioone/abir"
 include = [
     "LICENSE",
 ]
