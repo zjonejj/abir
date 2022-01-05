@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "abir"
+version = "0.1.3"
+description = "python project load config from yaml or environment."
+license = "MIT"
+authors = ["Jone <zjhjin@live.com>"]
+keywords = ["pyyaml", "django", "django config yaml", "python configure"]
+readme = "README.md"
+homepage = "https://github.com/MattiooFR/package_name"
+repository = "https://github.com/MattiooFR/package_name"
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+PyYAML = "^6.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+Django = "^4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
